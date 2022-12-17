@@ -1,0 +1,9 @@
+pip install pipenv
+pipenv shell
+cerrar y abrir nueva terminal
+pipenv install tkinter pyinstaller tkmessagebox
+touch part_manager.py
+touch db.py
+python part_manager.py
+python db.py
+pyinstaller part_manager.py --onefile --windowed
